@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_l">36sp</dimen>
+
+    <dimen name="padding_xl">40dp</dimen>
+    <dimen name="padding_l">32dp</dimen>
+    <dimen name="padding_m">16dp</dimen>
+    <dimen name="padding_s">8dp</dimen>
+    <dimen name="padding_xs">4dp</dimen>
+
+    <dimen name="input_width">60dp</dimen>
+    <dimen name="border">1dp</dimen>
+</resources>

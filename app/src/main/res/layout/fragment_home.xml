@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_m">
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_flow"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textSize="36sp" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_minute"
+                    android:layout_width="@dimen/input_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_m"
+                    android:background="@drawable/edit_text"
+                    android:layout_marginEnd="@dimen/padding_s"
+                    android:paddingVertical="@dimen/padding_xs" />
+
+                <EditText
+                    android:id="@+id/et_second"
+                    android:layout_width="@dimen/input_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_m"
+                    android:background="@drawable/edit_text"
+                    android:paddingVertical="@dimen/padding_xs" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/padding_l"
+                android:text="@string/start" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
